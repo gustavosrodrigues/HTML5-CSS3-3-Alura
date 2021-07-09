@@ -1,0 +1,180 @@
+/* Página Produtos */
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+.nav-cabecalho {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;	
+}
+
+.nav-cabecalho:hover {
+	color: #C79C38;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border-color: #000000;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.produtos li:hover {	
+	border-color: #C79C38;	
+}
+
+.produtos li:hover h2{		
+	transform: scale(1.15);
+}
+
+.produtos li:active {
+	border-color: #088C19;
+}
+
+.produto-titulo {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.produto-descricao {
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {	
+	text-align: center;
+	background: url(bg.jpg);
+	padding: 40px 0 10px ;
+}
+
+.copyright {
+	font-size: 13px;
+	color: #EEEEEE;	
+	margin: 10px 0 0;
+	transition: all 1.0s;
+}
+
+/* Página Contato */
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label,
+form p {
+	display: block;
+	font-size: 20px;
+	margin: 20px 0 20px;
+}
+
+.input-padrao {	
+	display: block;
+	width: 50%;
+	margin: 0 0 20px;
+	padding: 5px 2.5px;
+}
+
+.checkbox {	
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 35%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background 0.5s;
+}
+
+.enviar:hover {
+	background: darkorange;	
+}
+
+.tabela-horario {
+	margin: 20px 0 40px;
+}
+
+.tabela-horario thead {
+	background: #444444;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.tabela-horario td, 
+.tabela-horario th {
+	border-color: #111111;
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px;
+}
+
+.tabela-horario tfoot td{
+	text-align: center;
+	font-style: italic;
+}
+
+::placeholder{
+    color: #555555;
+    opacity: 0.6;    
+    transition: color 4s;
+}
+
+input:focus::-moz-placeholder{
+    color: transparent;
+}
+
+textarea:focus::-moz-placeholder{
+    color: transparent;
+}

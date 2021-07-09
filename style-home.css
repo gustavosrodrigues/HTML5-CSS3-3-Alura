@@ -1,0 +1,155 @@
+html, body, main {
+	
+	height: 100%;
+}
+
+/* Inicio cabeçalho da página*/
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa-cabecalho {
+	position: relative;
+	width: 80%;
+	margin: 0 auto;	
+}
+
+.nav-cabecalho {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+.nav-cabecalho li {
+	display: inline;
+	margin-left: 15px;
+}
+
+.nav-cabecalho a {	
+	font-size: 22px;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;	
+}
+
+/* Início main da página */
+
+.titulo-principal {
+	padding: 40px 30px;
+	font-size: 32px;
+}
+
+#banner {
+	width: 100%;
+}
+
+.principal {
+	background: #CCCCCC;
+	padding: 40px;
+	line-height: 40px;
+}
+
+.principal h2 {
+	font-size: 26px;
+}
+
+.titulo-centralizado {
+	text-align: center;
+	font-size: 22px;
+}
+
+.principal p {
+	text-align: center;
+	font-size: 16px;
+}
+
+#missao {
+	font-size: 20px;
+}
+
+em strong {
+	color: darkred;
+}
+
+.beneficios {
+	width: 100%;
+	background: #FFFFFF;
+	padding: 30px;	
+	line-height: 35px;	
+	box-sizing: border-box;
+}
+
+.beneficios h3 {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.caixa-lista {
+	width: 30%;
+	position: relative;
+	left: 150px;
+	vertical-align: top;
+	text-align: center;	
+	display: inline-block;
+}
+
+.beneficios ul {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.caixa-imagem {
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	height: 25%;	
+	left: 20%;			
+}
+
+.imagembeneficios {
+	position: absolute;	
+	width: 300px;
+	height: 300px;	
+}
+
+#imagembeneficios1 {
+	right: 0;
+}
+
+#imagembeneficios2 {
+	left: 0;
+}
+
+#imagembeneficios3 {
+	left: 0;
+	bottom: 0;
+}
+
+#imagembeneficios4 {
+	right: 0;
+	bottom: 0;
+
+}
+
+.itens {
+	font-size: 30px;
+	font-style: italic;
+	line-height: 120px;
+}
+
+/* Início rodapé da página*/
+
+.rodape {
+	background: url("bg.jpg");
+	text-align: center;
+	padding: 40px 0 10px;
+}
+
+.rodape p {
+	font-size: 13px;
+	color: #EEEEEE;
+	margin-top: 10px;
+}
